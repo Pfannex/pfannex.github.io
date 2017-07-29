@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_i2_c_8h">
+    <title>I2C.h File Reference</title>
+    <programlisting>#include &quot;Logger.h&quot;</programlisting>
+    <programlisting>#include &quot;Setup.h&quot;</programlisting>
+    <programlisting>#include &lt;Arduino.h&gt;</programlisting>
+    <programlisting>#include &lt;SSD1306.h&gt;</programlisting>
+    <programlisting>#include &lt;Wire.h&gt;</programlisting>
+<para>Include dependency diagram for I2C.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_i2_c_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for I2C.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_i2_c_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Klassen </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_l_c_d">LCD</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_i2_c">I2C</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Ausführliche Beschreibung</title>
+    <para>Definition in file C:/TEMP/ADE7953-PowerSocket/src/I2C.h</para>
+    </simplesect>
+</section>

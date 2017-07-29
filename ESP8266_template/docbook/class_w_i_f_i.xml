@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_w_i_f_i">
+<title>WIFI class Reference</title>
+<para>Inheritance diagram for WIFI</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_w_i_f_i__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for WIFI</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_w_i_f_i__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LOGGING &amp; logging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FFS &amp; ffs</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>WiFiClient client</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool WiFiStatus</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CallbackFunction on_wifiConnected</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CallbackFunction on_wifiDisconnected</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_w_i_f_i_1afc734f0cace3978a3304c4b70a364f57">WIFI</link> (
+<link linkend="class_l_o_g_g_i_n_g">LOGGING</link> &amp; logging, <link linkend="class_f_f_s">FFS</link> &amp; ffs)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_i_f_i_1a554751a46e587d8952e9792fb2b8d1f1">set_callbacks</link> (
+CallbackFunction wifiConnected, CallbackFunction wifiDisconnected)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_w_i_f_i_1a890d05b9593104d9b9194e80e2229bdf">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_w_i_f_i_1a5f31e525ef4009a1c375c51a57e6fddc">handle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_w_i_f_i_1a44bf4fdb6860bcc8c65559abfa779622">macAddress</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_w_i_f_i_1a601248aeebafdf3581a33356e52d30f8">get</link> (
+<link linkend="class_topic">Topic</link> &amp; topic)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_w_i_f_i_1afc734f0cace3978a3304c4b70a364f57">
+                <title>WIFI::WIFI (LOGGING &amp;logging, FFS &amp;ffs)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_i_f_i_1a554751a46e587d8952e9792fb2b8d1f1">
+                <title>void WIFI::set_callbacks (CallbackFunction wifiConnected, CallbackFunction wifiDisconnected)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_i_f_i_1a890d05b9593104d9b9194e80e2229bdf">
+                <title>bool WIFI::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_i_f_i_1a5f31e525ef4009a1c375c51a57e6fddc">
+                <title>bool WIFI::handle ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_i_f_i_1a44bf4fdb6860bcc8c65559abfa779622">
+                <title>String WIFI::macAddress ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_i_f_i_1a601248aeebafdf3581a33356e52d30f8">
+                <title>String WIFI::get (Topic &amp;topic)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

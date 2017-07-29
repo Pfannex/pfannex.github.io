@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_l_c_d">
+<title>LCD class Reference</title>
+<para>Inheritance diagram for LCD</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_l_c_d__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for LCD</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_l_c_d__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SSD1306 ssd1306</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_l_c_d_1a00bb2db1390721abc7b24ac4b8c276c8">LCD</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_c_d_1a1c9a188830514801292eb9972ef5ef36">init</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_c_d_1a7514ab03fc96435731dccf816f90f460">println</link> (
+String txt, const char * fontData, int yPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_c_d_1afa699e0beeeee03cce8cef87eba81c4a">clear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_l_c_d_1a00bb2db1390721abc7b24ac4b8c276c8">
+                <title>LCD::LCD ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_c_d_1a1c9a188830514801292eb9972ef5ef36">
+                <title>void LCD::init ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_c_d_1a7514ab03fc96435731dccf816f90f460">
+                <title>void LCD::println (String txt, const char *fontData, int yPos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_c_d_1afa699e0beeeee03cce8cef87eba81c4a">
+                <title>void LCD::clear ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

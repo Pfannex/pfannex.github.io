@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_auth">
+<title>Auth class Reference</title>
+<para>Inheritance diagram for Auth</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_auth__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Auth</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_auth__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>API &amp; api</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int numSessions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SessionPtr * sessions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_auth_1a372114e80d70a2649df5c713a643022b">Auth</link> (
+<link linkend="class_a_p_i">API</link> &amp; api)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_auth_1ad8dc7bc4d6f0e02ef07977148aba71e5">~Auth</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_auth_1a426f6d69c1cc679442add50e0e167030">reset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_auth_1a435a805d8de617fc0031996da58919c1">checkPassword</link> (
+String username, String password)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_session">SessionPtr</link> <link linkend="class_auth_1ae142f6d59d2230dae2ca4997f9946b8e">createSession</link> (
+String username)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_session">SessionPtr</link> <link linkend="class_auth_1a8c3c138dedb562ab06f54270d42aaa6b">getSession</link> (
+String sessionId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_auth_1a411c5a172f77139388a9d047027dfad4">deleteSession</link> (
+String sessionId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_auth_1a372114e80d70a2649df5c713a643022b">
+                <title>Auth::Auth (API &amp;api)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_auth_1ad8dc7bc4d6f0e02ef07977148aba71e5">
+                <title>Auth::~Auth ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_auth_1a426f6d69c1cc679442add50e0e167030">
+                <title>void Auth::reset ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_auth_1a435a805d8de617fc0031996da58919c1">
+                <title>bool Auth::checkPassword (String username, String password)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_auth_1ae142f6d59d2230dae2ca4997f9946b8e">
+                <title>SessionPtr Auth::createSession (String username)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_auth_1a8c3c138dedb562ab06f54270d42aaa6b">
+                <title>SessionPtr Auth::getSession (String sessionId)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_auth_1a411c5a172f77139388a9d047027dfad4">
+                <title>void Auth::deleteSession (String sessionId)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

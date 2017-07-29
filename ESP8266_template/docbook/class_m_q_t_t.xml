@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_m_q_t_t">
+<title>MQTT class Reference</title>
+<para>Inheritance diagram for MQTT</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_m_q_t_t__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for MQTT</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_m_q_t_t__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>API &amp; api</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>WiFiClient espClient</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>PubSubClient client</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_m_q_t_t_1a5908a8a2507409f065e9d68c4f086f91">MQTT</link> (
+<link linkend="class_a_p_i">API</link> &amp; api)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_m_q_t_t_1ae15d841989b9faa5b93a2682b8b92bbb">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_m_q_t_t_1a14be943e1a3441660f2a6c86ffeed6a4">handle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_m_q_t_t_1aa518d3877c2a6cd83e5e4ade22b9226f">setCallback</link> (
+MQTT_CALLBACK_SIGNATURE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_m_q_t_t_1a1b777cfb8d300947e1f5b35c0d18cf47">on_incommingSubcribe</link> (
+char * topic, byte * payload, unsigned int length)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_m_q_t_t_1af0666c91c7c9b6ed6504107f5197c4f3">pub</link> (
+String topic, String value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_m_q_t_t_1a5908a8a2507409f065e9d68c4f086f91">
+                <title>MQTT::MQTT (API &amp;api)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_m_q_t_t_1ae15d841989b9faa5b93a2682b8b92bbb">
+                <title>bool MQTT::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_m_q_t_t_1a14be943e1a3441660f2a6c86ffeed6a4">
+                <title>bool MQTT::handle ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_m_q_t_t_1aa518d3877c2a6cd83e5e4ade22b9226f">
+                <title>void MQTT::setCallback (MQTT_CALLBACK_SIGNATURE)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_m_q_t_t_1a1b777cfb8d300947e1f5b35c0d18cf47">
+                <title>void MQTT::on_incommingSubcribe (char *topic, byte *payload, unsigned int length)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_m_q_t_t_1af0666c91c7c9b6ed6504107f5197c4f3">
+                <title>void MQTT::pub (String topic, String value)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

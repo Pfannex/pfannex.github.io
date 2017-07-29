@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_clock">
+<title>Clock class Reference</title>
+<para>Inheritance diagram for Clock</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_clock__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Clock</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_clock__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>WiFiUDP ntpUDP</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>NTPClient * ntpClient</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_clock_1adbc370eb6b5f8d01645cf440188160a8">Clock</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_clock_1afc976ce68fa85e15cc06f9ed47bddb7c">~Clock</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_clock_1a8a050959dcff11c85d695989e9099a8c">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_clock_1a90f110eacc7a87ce572dc1f2af77e25d">start</link> (
+const char * poolServerName, int timeOffset, int updateInterval)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_clock_1a0b77c3e7f33eb7ae0f018e469d96a250">stop</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_clock_1ae7c6708cf04b233655b501a97bb1e802">update</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_clock_1a9df252eb56b672532a02e367a196c8a5">forceUpdate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>time_t <link linkend="class_clock_1aa8504c02bd77bac45b0cdbb377b0ccd3">now</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_clock_1a8d7762e8bc2edd4e1da23a4db154f2c3">set</link> (
+<link linkend="class_topic">Topic</link> &amp; topic)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_clock_1a0241ebe5ed63778f1135b12f669a16ee">get</link> (
+<link linkend="class_topic">Topic</link> &amp; topic)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_clock_1a0cfec3d5b76b22f96fb012c6dc64ac1e">root</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_clock_1a9d66fa6cfbca319d906f48263ff1d7e9">adjustTimeOffset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_clock_1adbc370eb6b5f8d01645cf440188160a8">
+                <title>Clock::Clock ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1afc976ce68fa85e15cc06f9ed47bddb7c">
+                <title>Clock::~Clock ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a8a050959dcff11c85d695989e9099a8c">
+                <title>void Clock::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a90f110eacc7a87ce572dc1f2af77e25d">
+                <title>void Clock::start (const char *poolServerName, int timeOffset, int updateInterval)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a0b77c3e7f33eb7ae0f018e469d96a250">
+                <title>void Clock::stop ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1ae7c6708cf04b233655b501a97bb1e802">
+                <title>void Clock::update ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a9df252eb56b672532a02e367a196c8a5">
+                <title>void Clock::forceUpdate ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1aa8504c02bd77bac45b0cdbb377b0ccd3">
+                <title>time_t Clock::now ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a8d7762e8bc2edd4e1da23a4db154f2c3">
+                <title>String Clock::set (Topic &amp;topic)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a0241ebe5ed63778f1135b12f669a16ee">
+                <title>String Clock::get (Topic &amp;topic)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a0cfec3d5b76b22f96fb012c6dc64ac1e">
+                <title>String Clock::root ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_clock_1a9d66fa6cfbca319d906f48263ff1d7e9">
+                <title>void Clock::adjustTimeOffset ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

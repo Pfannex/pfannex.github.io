@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_session">
+<title>Session class Reference</title>
+<para>Inheritance diagram for Session</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_session__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Session</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_session__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>API &amp; api</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String username</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String sessionId</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>long lastTouch</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_session_1a7f2713b9d3b5284c50fe2e1b4737afb1">Session</link> (
+String username, <link linkend="class_a_p_i">API</link> &amp; api)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_session_1a8a1e5f5100ffaba505d173b76cad19a4">getSessionId</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_session_1aee582a7f3e3f09d4b7f1f7bcdb39a1b2">getUsername</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_session_1a65cba5b1fba90e243099779ffa776a21">isExpired</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_session_1aecd99d82f2905578d1492de00dcc9aa9">touch</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_session_1a7f2713b9d3b5284c50fe2e1b4737afb1">
+                <title>Session::Session (String username, API &amp;api)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_session_1a8a1e5f5100ffaba505d173b76cad19a4">
+                <title>String Session::getSessionId ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_session_1aee582a7f3e3f09d4b7f1f7bcdb39a1b2">
+                <title>String Session::getUsername ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_session_1a65cba5b1fba90e243099779ffa776a21">
+                <title>bool Session::isExpired ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_session_1aecd99d82f2905578d1492de00dcc9aa9">
+                <title>void Session::touch ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_i2_c">
+<title>I2C class Reference</title>
+<para>Inheritance diagram for I2C</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_i2_c__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for I2C</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_i2_c__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LOGGING &amp; logging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LCD lcd</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_i2_c_1a54577068652b30b6031442a28fa9a25b">I2C</link> (
+<link linkend="class_l_o_g_g_i_n_g">LOGGING</link> &amp; logging)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_i2_c_1a07463a2babdabbd675a2745fb53650ca">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_i2_c_1aa38babf0746e63bc9414ec0665f15b32">scanBus</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_i2_c_1a54577068652b30b6031442a28fa9a25b">
+                <title>I2C::I2C (LOGGING &amp;logging)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_i2_c_1a07463a2babdabbd675a2745fb53650ca">
+                <title>void I2C::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_i2_c_1aa38babf0746e63bc9414ec0665f15b32">
+                <title>void I2C::scanBus ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

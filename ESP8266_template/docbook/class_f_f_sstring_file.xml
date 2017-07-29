@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_f_f_sstring_file">
+<title>FFSstringFile class Reference</title>
+<para>Inheritance diagram for FFSstringFile</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_f_f_sstring_file__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for FFSstringFile</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_f_f_sstring_file__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String filePath</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LOGGING &amp; logging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String data</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_f_f_sstring_file_1aa5d7d691833c08b78a6fe1417bc405b7">FFSstringFile</link> (
+<link linkend="class_l_o_g_g_i_n_g">LOGGING</link> &amp; logging, String filePath)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_f_f_sstring_file_1a4ba9dc7c294994f6530475a6b5748ca5">loadFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_f_f_sstring_file_1a83bdfffdcd8db1c924402997c0ed5b4e">read</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_f_f_sstring_file_1aa5d7d691833c08b78a6fe1417bc405b7">
+                <title>FFSstringFile::FFSstringFile (LOGGING &amp;logging, String filePath)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sstring_file_1a4ba9dc7c294994f6530475a6b5748ca5">
+                <title>void FFSstringFile::loadFile ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sstring_file_1a83bdfffdcd8db1c924402997c0ed5b4e">
+                <title>String FFSstringFile::read ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

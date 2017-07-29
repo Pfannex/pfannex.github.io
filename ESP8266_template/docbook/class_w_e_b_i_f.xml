@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_w_e_b_i_f">
+<title>WEBIF class Reference</title>
+<para>Inheritance diagram for WEBIF</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_w_e_b_i_f__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for WEBIF</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_w_e_b_i_f__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ESP8266WebServer webServer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ESP8266HTTPUpdateServer httpUpdater</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>API &amp; api</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Auth auth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>long numPagesServed</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_w_e_b_i_f_1a8717e0a1ac2c54e3019c23decd22a94d">WEBIF</link> (
+<link linkend="class_a_p_i">API</link> &amp; api)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1a489fe1efb217ecedfe5391c71e9f8b4c">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1a88fc15cda66431436ea0de38a0d4c734">handle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_w_e_b_i_f_1a36f002d4fac254022d6387521857a6c6">checkAuthentification</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1a56291c71b9e8120f2332465019640045">send</link> (
+const String &amp; description, int code, char * content_type, const String &amp; content)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1a50f37c940d945949e6dbe9c1e5e11774">sendFile</link> (
+const String &amp; description, int code, char * content_type, const String filePath)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1ab958fcb9f54eaf9ec0e79aeff986d162">rootPageHandler</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1a181b7f8862eb86efa4517b09f32c648b">authPageHandler</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1a6a030e935bad7c49c00ba8f9226daf4f">apiPageHandler</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1a0746833b6b7819b7352ec76d959b40b4">handleNotFound</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_w_e_b_i_f_1af7d118dce3890a547042a0361f4cf6bb">subst</link> (
+String data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_w_e_b_i_f_1ac922ad749d85fbb2b07d93025365465e">applyConfiguration</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_w_e_b_i_f_1abc9e76f20878e2e6b43edcfef3fc251f">getConfiguration</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_w_e_b_i_f_1a8717e0a1ac2c54e3019c23decd22a94d">
+                <title>WEBIF::WEBIF (API &amp;api)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a489fe1efb217ecedfe5391c71e9f8b4c">
+                <title>void WEBIF::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a88fc15cda66431436ea0de38a0d4c734">
+                <title>void WEBIF::handle ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a36f002d4fac254022d6387521857a6c6">
+                <title>bool WEBIF::checkAuthentification ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a56291c71b9e8120f2332465019640045">
+                <title>void WEBIF::send (const String &amp;description, int code, char *content_type, const String &amp;content)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a50f37c940d945949e6dbe9c1e5e11774">
+                <title>void WEBIF::sendFile (const String &amp;description, int code, char *content_type, const String filePath)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1ab958fcb9f54eaf9ec0e79aeff986d162">
+                <title>void WEBIF::rootPageHandler ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a181b7f8862eb86efa4517b09f32c648b">
+                <title>void WEBIF::authPageHandler ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a6a030e935bad7c49c00ba8f9226daf4f">
+                <title>void WEBIF::apiPageHandler ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1a0746833b6b7819b7352ec76d959b40b4">
+                <title>void WEBIF::handleNotFound ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1af7d118dce3890a547042a0361f4cf6bb">
+                <title>String WEBIF::subst (String data)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1ac922ad749d85fbb2b07d93025365465e">
+                <title>void WEBIF::applyConfiguration ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_w_e_b_i_f_1abc9e76f20878e2e6b43edcfef3fc251f">
+                <title>String WEBIF::getConfiguration ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

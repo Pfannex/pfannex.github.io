@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_m_q_t_t_8h">
+    <title>MQTT.h File Reference</title>
+    <programlisting>#include &quot;API.h&quot;</programlisting>
+    <programlisting>#include &quot;Setup.h&quot;</programlisting>
+    <programlisting>#include &lt;Arduino.h&gt;</programlisting>
+    <programlisting>#include &lt;IPAddress.h&gt;</programlisting>
+    <programlisting>#include &lt;PubSubClient.h&gt;</programlisting>
+<para>Include dependency diagram for MQTT.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_m_q_t_t_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for MQTT.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_m_q_t_t_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Klassen </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_m_q_t_t">MQTT</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Ausführliche Beschreibung</title>
+    <para>Definition in file C:/TEMP/ADE7953-PowerSocket/src/MQTT.h</para>
+    </simplesect>
+</section>

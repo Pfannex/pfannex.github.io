@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dir_b677b816d8b545ab7ad04b7d6d9b9077">
+    <title>C:/TEMP/ADE7953-PowerSocket-Verzeichnisreferenz</title>
+<para>Directory dependency diagram for C:/TEMP/ADE7953-PowerSocket</para>
+<para>
+    <figure>
+        <title>Directory Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="dir_b677b816d8b545ab7ad04b7d6d9b9077_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <simplesect>
+            <title> Verzeichnisse </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>dir <link linkend="dir_84296360f60ccc9cdc473f5daa6bbd4d">C:/TEMP/ADE7953-PowerSocket/src</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Ausführliche Beschreibung</title>
+    <para>Directory location is C:/TEMP/ADE7953-PowerSocket/</para>
+    </simplesect>
+</section>

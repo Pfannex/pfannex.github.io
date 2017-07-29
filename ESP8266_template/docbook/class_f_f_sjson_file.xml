@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_f_f_sjson_file">
+<title>FFSjsonFile class Reference</title>
+<para>Inheritance diagram for FFSjsonFile</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_f_f_sjson_file__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for FFSjsonFile</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_f_f_sjson_file__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String filePath</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LOGGING &amp; logging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>size_t size</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int itemsCount</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int type</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String root</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_f_f_sjson_file_1aa4393b7da47cccc2a814c1341cff4955">FFSjsonFile</link> (
+<link linkend="class_l_o_g_g_i_n_g">LOGGING</link> &amp; logging, String filePath, int type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_f_f_sjson_file_1a401e5929ca848aebeec6b32ef8a78383">loadFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_f_f_sjson_file_1a9a0f18ad2d55bcffb605d66a47d212d3">readItem</link> (
+String itemName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_f_f_sjson_file_1a1063b4ab2e854c77e5f8080b62c4f6de">readItem</link> (
+int item)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_f_f_sjson_file_1a3fb3b4ff7dbfb9e52d11af0047bdce1f">writeItem</link> (
+String itemName, String value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_f_f_sjson_file_1a157ab2e2736a52931ded20986af0f46a">saveFile</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_f_f_sjson_file_1acfd017bd9a3d93f119abb11b5314c928">readJsonString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_f_f_sjson_file_1a277b08a572a8921d9c4bd0257dcf6f65">parseJsonObject</link> (
+JsonObject &amp; jsonObject)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_f_f_sjson_file_1a5c21e75a52156ca4a6f6d960fb49cc8b">parseJsonArray</link> (
+JsonArray &amp; jsonArray)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_f_f_sjson_file_1aa4393b7da47cccc2a814c1341cff4955">
+                <title>FFSjsonFile::FFSjsonFile (LOGGING &amp;logging, String filePath, int type)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1a401e5929ca848aebeec6b32ef8a78383">
+                <title>void FFSjsonFile::loadFile ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1a9a0f18ad2d55bcffb605d66a47d212d3">
+                <title>String FFSjsonFile::readItem (String itemName)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1a1063b4ab2e854c77e5f8080b62c4f6de">
+                <title>String FFSjsonFile::readItem (int item)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1a3fb3b4ff7dbfb9e52d11af0047bdce1f">
+                <title>bool FFSjsonFile::writeItem (String itemName, String value)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1a157ab2e2736a52931ded20986af0f46a">
+                <title>bool FFSjsonFile::saveFile ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1acfd017bd9a3d93f119abb11b5314c928">
+                <title>String FFSjsonFile::readJsonString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1a277b08a572a8921d9c4bd0257dcf6f65">
+                <title>int FFSjsonFile::parseJsonObject (JsonObject &amp;jsonObject)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_sjson_file_1a5c21e75a52156ca4a6f6d960fb49cc8b">
+                <title>void FFSjsonFile::parseJsonArray (JsonArray &amp;jsonArray)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

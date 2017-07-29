@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_sys_utils">
+<title>SysUtils class Reference</title>
+<para>Inheritance diagram for SysUtils</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_sys_utils__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for SysUtils</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_sys_utils__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static long seed</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static long <link linkend="class_sys_utils_1a50dac2b668ef371816e5a1e304079a58">rand</link> (
+long max)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static IPAddress <link linkend="class_sys_utils_1a4bc82b33a63dcc0ae82ebef407597f98">charToIP</link> (
+char * IP)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static IPAddress <link linkend="class_sys_utils_1a44dcc4af3a7b24cda66b631f143091e5">strToIP</link> (
+String IP)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static char * <link linkend="class_sys_utils_1aac2eed5ca71ab6c90961e6c53c4f871b">string2char</link> (
+String command)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="class_sys_utils_1a02d7d2d29d456083b5df9ab732ef7682">strDate</link> (
+time_t t)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="class_sys_utils_1ab0a24909211407b58a8400b22ae95db5">strTime</link> (
+time_t t)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="class_sys_utils_1a64f16b8c4cdde00cb9bcab6de4e5ceb4">strTime_ms</link> (
+time_t t)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="class_sys_utils_1a32700011267ea8e220e0e648f5e4f014">strDateTime</link> (
+time_t t)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static String <link linkend="class_sys_utils_1a042a58a4c1115579c9a7e10f5d1d15f1">strDateTime_ms</link> (
+time_t t)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_sys_utils_1a50dac2b668ef371816e5a1e304079a58">
+                <title>long SysUtils::rand (long max)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1a4bc82b33a63dcc0ae82ebef407597f98">
+                <title>IPAddress SysUtils::charToIP (char *IP)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1a44dcc4af3a7b24cda66b631f143091e5">
+                <title>IPAddress SysUtils::strToIP (String IP)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1aac2eed5ca71ab6c90961e6c53c4f871b">
+                <title>char * SysUtils::string2char (String command)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1a02d7d2d29d456083b5df9ab732ef7682">
+                <title>String SysUtils::strDate (time_t t)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1ab0a24909211407b58a8400b22ae95db5">
+                <title>String SysUtils::strTime (time_t t)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1a64f16b8c4cdde00cb9bcab6de4e5ceb4">
+                <title>String SysUtils::strTime_ms (time_t t)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1a32700011267ea8e220e0e648f5e4f014">
+                <title>String SysUtils::strDateTime (time_t t)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_sys_utils_1a042a58a4c1115579c9a7e10f5d1d15f1">
+                <title>String SysUtils::strDateTime_ms (time_t t)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

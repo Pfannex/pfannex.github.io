@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_topic_8h">
+    <title>Topic.h File Reference</title>
+    <programlisting>#include &lt;Arduino.h&gt;</programlisting>
+    <programlisting>#include &lt;ArduinoJson.h&gt;</programlisting>
+<para>Include dependency diagram for Topic.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_topic_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for Topic.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_topic_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Klassen </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_topic">Topic</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="struct_t_topic">TTopic</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Makrodefinitionen</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_topic_8h_1a6459fcfc94d1f93a57a4dcf419aa8beb">TOPIC_OK</link> String(&quot;ok&quot;)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_topic_8h_1a845279b552e688f1b9a1caaeecc592bf">TOPIC_NO</link> String(&quot;no such topic&quot;)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Typdefinitionen</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef const char *  <link linkend="_topic_8h_1a037886b0e863287921a4bf20d0902965">string</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Ausführliche Beschreibung</title>
+    <para>Definition in file C:/TEMP/ADE7953-PowerSocket/src/Topic.h</para>
+    </simplesect>
+</section>

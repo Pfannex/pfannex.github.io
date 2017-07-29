@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_controller_8h">
+    <title>Controller.h File Reference</title>
+    <programlisting>#include &quot;Clock.h&quot;</programlisting>
+    <programlisting>#include &quot;ESP.h&quot;</programlisting>
+    <programlisting>#include &quot;FFS.h&quot;</programlisting>
+    <programlisting>#include &quot;I2C.h&quot;</programlisting>
+    <programlisting>#include &quot;Logger.h&quot;</programlisting>
+    <programlisting>#include &quot;Topic.h&quot;</programlisting>
+    <programlisting>#include &quot;WIFI.h&quot;</programlisting>
+    <programlisting>#include &quot;oWire.h&quot;</programlisting>
+<para>Include dependency diagram for Controller.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_controller_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for Controller.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_controller_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Klassen </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_controller">Controller</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Ausführliche Beschreibung</title>
+    <para>Definition in file C:/TEMP/ADE7953-PowerSocket/src/Controller.h</para>
+    </simplesect>
+</section>

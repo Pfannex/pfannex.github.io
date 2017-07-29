@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_topic">
+<title>Topic class Reference</title>
+<para>Inheritance diagram for Topic</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_topic__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Topic</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_topic__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string * item</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string * arg</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char * topics</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char * args</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int countItems</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int countArgs</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_topic_1a0a440ad48222b711fc0568bb66bbcf64">Topic</link> (
+String &amp; topicsArgs)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_topic_1a9288183546263ded5b071462c9515f71">Topic</link> (
+char * topics, char * args)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_topic_1a8387ddd8ffe87e287c71380af0f45227">~Topic</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_topic_1a08531a42771dcb911dcf800feb5623fb">topic_asString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_topic_1a0de810b3f2179e9f13dbe34029e5dafe">arg_asString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_topic_1a19bdafb2d4bb697323cc51999715436d">asString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_topic_1a90ad578f6e8e61da6299052df5dc8c19">dissectTopic</link> (
+char * topics, char * arg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_topic_1a3518620d9036102c1afb57877afa3883">modifyTopic</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_topic_1ab0145e4229a16c728ddb5caa40b42120">itemIs</link> (
+int index, const string topicName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_topic_1a221e52551a0b4b5af81787053cee457f">isValidJson</link> (
+String root)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_topic_1a1deb17a5cf7ab0f5b84c76c80ad83c67">printTopic</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_topic_1a0a440ad48222b711fc0568bb66bbcf64">
+                <title>Topic::Topic (String &amp;topicsArgs)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a9288183546263ded5b071462c9515f71">
+                <title>Topic::Topic (char *topics, char *args)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a8387ddd8ffe87e287c71380af0f45227">
+                <title>Topic::~Topic ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a08531a42771dcb911dcf800feb5623fb">
+                <title>String Topic::topic_asString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a0de810b3f2179e9f13dbe34029e5dafe">
+                <title>String Topic::arg_asString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a19bdafb2d4bb697323cc51999715436d">
+                <title>String Topic::asString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a90ad578f6e8e61da6299052df5dc8c19">
+                <title>void Topic::dissectTopic (char *topics, char *arg)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a3518620d9036102c1afb57877afa3883">
+                <title>String Topic::modifyTopic (int index)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1ab0145e4229a16c728ddb5caa40b42120">
+                <title>bool Topic::itemIs (int index, const string topicName)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a221e52551a0b4b5af81787053cee457f">
+                <title>bool Topic::isValidJson (String root)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_topic_1a1deb17a5cf7ab0f5b84c76c80ad83c67">
+                <title>void Topic::printTopic ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

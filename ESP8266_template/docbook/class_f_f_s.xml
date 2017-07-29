@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_f_f_s">
+<title>FFS class Reference</title>
+<para>Inheritance diagram for FFS</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_f_f_s__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for FFS</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_f_f_s__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LOGGING &amp; logging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>I2C &amp; i2c</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FFSjsonFile cfg</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FFSjsonFile sub</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FFSjsonFile subGlobal</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FFSjsonFile pub</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FFSjsonFile ade7953</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_f_f_s_1abe1095a504fbac291132b6e953fafa77">FFS</link> (
+<link linkend="class_l_o_g_g_i_n_g">LOGGING</link> &amp; logging, <link linkend="class_i2_c">I2C</link> &amp; i2c)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_f_f_s_1a4f3cd84efbb1cfb7e32782d11cedf803">mount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_f_f_s_1afb78519dca9d5f550b6f786de3dc1eac">loadString</link> (
+String filePath)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_f_f_s_1a26e3c3d788b8b225ce2095d1e7d3bf44">isValidJson</link> (
+String root)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_f_f_s_1a8fd9e800d2ca5643201d65338bf28b3d">set</link> (
+<link linkend="class_topic">Topic</link> &amp; topic)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_f_f_s_1a10ffd43fbbff003425dcbb76546b3518">get</link> (
+<link linkend="class_topic">Topic</link> &amp; topic)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_f_f_s_1abe1095a504fbac291132b6e953fafa77">
+                <title>FFS::FFS (LOGGING &amp;logging, I2C &amp;i2c)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_s_1a4f3cd84efbb1cfb7e32782d11cedf803">
+                <title>void FFS::mount ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_s_1afb78519dca9d5f550b6f786de3dc1eac">
+                <title>String FFS::loadString (String filePath)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_s_1a26e3c3d788b8b225ce2095d1e7d3bf44">
+                <title>bool FFS::isValidJson (String root)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_s_1a8fd9e800d2ca5643201d65338bf28b3d">
+                <title>String FFS::set (Topic &amp;topic)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_f_f_s_1a10ffd43fbbff003425dcbb76546b3518">
+                <title>String FFS::get (Topic &amp;topic)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_controller">
+<title>Controller class Reference</title>
+<para>Inheritance diagram for Controller</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_controller__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Controller</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_controller__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Clock clock</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LOGGING logging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FFS ffs</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>WIFI wifi</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>I2C i2c</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>OWIRE oWire</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ESP_Tools espTools</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_controller_1a95c56822d667e94b031451729ce069a9">Controller</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1ad535ad74055e645b7f44b7feeb4e82a8">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1a0fee459be90ca9573b17fca3c8a87efe">handle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1a40794552e89c83c124e15d73f7e0a21e">on_wifiConnected</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1aa9db3dcb8cdbef1d64724354a233848c">on_wifiDisconnected</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_controller_1a806760bd84d31ee8caf2a51e160f950c">call</link> (
+<link linkend="class_topic">Topic</link> &amp; topic)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1a2dbae78c843af54bee52c6d6ffcb2844">t_1s_Update</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1ae801dc4b04a716949b296819e02c04f0">t_short_Update</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1adf58976c2adf11a541e0a7ad7ba653ef">t_long_Update</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_controller_1a78da6b26e5159df40ed2522e80c60114">startConnections</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_controller_1a1aebb349cf98e3d35aff886f764ee1db">startPeriphery</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_controller_1a95c56822d667e94b031451729ce069a9">
+                <title>Controller::Controller ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1ad535ad74055e645b7f44b7feeb4e82a8">
+                <title>void Controller::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1a0fee459be90ca9573b17fca3c8a87efe">
+                <title>void Controller::handle ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1a40794552e89c83c124e15d73f7e0a21e">
+                <title>void Controller::on_wifiConnected ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1aa9db3dcb8cdbef1d64724354a233848c">
+                <title>void Controller::on_wifiDisconnected ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1a806760bd84d31ee8caf2a51e160f950c">
+                <title>String Controller::call (Topic &amp;topic)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1a2dbae78c843af54bee52c6d6ffcb2844">
+                <title>void Controller::t_1s_Update ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1ae801dc4b04a716949b296819e02c04f0">
+                <title>void Controller::t_short_Update ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1adf58976c2adf11a541e0a7ad7ba653ef">
+                <title>void Controller::t_long_Update ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1a78da6b26e5159df40ed2522e80c60114">
+                <title>bool Controller::startConnections ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_controller_1a1aebb349cf98e3d35aff886f764ee1db">
+                <title>void Controller::startPeriphery ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

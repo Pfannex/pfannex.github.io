@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_l_o_g_g_i_n_g">
+<title>LOGGING class Reference</title>
+<para>Inheritance diagram for LOGGING</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_l_o_g_g_i_n_g__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for LOGGING</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_l_o_g_g_i_n_g__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Clock &amp; clock</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_l_o_g_g_i_n_g_1a564b401f4aa450d865223b9a5c4c8c60">LOGGING</link> (
+<link linkend="class_clock">Clock</link> &amp; clock)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_o_g_g_i_n_g_1a79b6818ba95833469ed99f0d7ba7cf74">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_o_g_g_i_n_g_1a180904184ab56e7673643878223b87bb">log</link> (
+const String &amp; channel, const String &amp; msg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_o_g_g_i_n_g_1a2dc3d19674867ddcf69ff3326ddd2059">info</link> (
+const String &amp; msg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_o_g_g_i_n_g_1a20592566f7123f4027c814fd77edeb8d">error</link> (
+const String &amp; msg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_l_o_g_g_i_n_g_1a42b38c28ff116505e20d154507abfb06">debug</link> (
+const String &amp; msg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_l_o_g_g_i_n_g_1a564b401f4aa450d865223b9a5c4c8c60">
+                <title>LOGGING::LOGGING (Clock &amp;clock)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_o_g_g_i_n_g_1a79b6818ba95833469ed99f0d7ba7cf74">
+                <title>void LOGGING::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_o_g_g_i_n_g_1a180904184ab56e7673643878223b87bb">
+                <title>void LOGGING::log (const String &amp;channel, const String &amp;msg)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_o_g_g_i_n_g_1a2dc3d19674867ddcf69ff3326ddd2059">
+                <title>void LOGGING::info (const String &amp;msg)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_o_g_g_i_n_g_1a20592566f7123f4027c814fd77edeb8d">
+                <title>void LOGGING::error (const String &amp;msg)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_l_o_g_g_i_n_g_1a42b38c28ff116505e20d154507abfb06">
+                <title>void LOGGING::debug (const String &amp;msg)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_a_p_i">
+<title>API class Reference</title>
+<para>Inheritance diagram for API</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_a_p_i__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for API</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_a_p_i__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Öffentliche Attribute</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Controller &amp; controller</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_a_p_i_1a27a09222e98a84f49cf49e5c085fbe3d">API</link> (
+<link linkend="class_controller">Controller</link> &amp; controller)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_a_p_i_1a2153db9ccf3b54c5fa9b885492a3b0e0">start</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_a_p_i_1afebdcc5458f58678900420e2be8990c6">call</link> (
+<link linkend="class_topic">Topic</link> &amp; topic)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_a_p_i_1a39ff2d68c232fd788fd16284b653eef5">call</link> (
+String topicsArgs)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>String <link linkend="class_a_p_i_1a9fdc8dacbf201cfc8f7f9f2ecee8da59">call</link> (
+string topicsArgs)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_a_p_i_1aa53d4a4d6c09911634e8a82562a8f8a7">info</link> (
+const String &amp; msg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_a_p_i_1ab8497c19f62a12e9f4f7ea7e2308fe8f">error</link> (
+const String &amp; msg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_a_p_i_1a1f500c0f1d811e0f510f706e2cfd85c6">debug</link> (
+const String &amp; msg)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Dokumentation der Datenelemente</title>
+        </section>
+            <section xml:id="class_a_p_i_1a27a09222e98a84f49cf49e5c085fbe3d">
+                <title>API::API (Controller &amp;controller)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_a_p_i_1a2153db9ccf3b54c5fa9b885492a3b0e0">
+                <title>void API::start ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_a_p_i_1afebdcc5458f58678900420e2be8990c6">
+                <title>String API::call (Topic &amp;topic)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_a_p_i_1a39ff2d68c232fd788fd16284b653eef5">
+                <title>String API::call (String topicsArgs)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_a_p_i_1a9fdc8dacbf201cfc8f7f9f2ecee8da59">
+                <title>String API::call (string topicsArgs)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_a_p_i_1aa53d4a4d6c09911634e8a82562a8f8a7">
+                <title>void API::info (const String &amp;msg)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_a_p_i_1ab8497c19f62a12e9f4f7ea7e2308fe8f">
+                <title>void API::error (const String &amp;msg)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_a_p_i_1a1f500c0f1d811e0f510f706e2cfd85c6">
+                <title>void API::debug (const String &amp;msg)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

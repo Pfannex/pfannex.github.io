@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_setup_8h">
+    <title>Setup.h File Reference</title>
+<para>Include dependency diagram for Setup.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_setup_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for Setup.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_setup_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Makrodefinitionen</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</link> &quot;alpha V0.700&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a751e3f85cd240e89d390d18996089cd0">NTP_SERVER</link> &quot;europe.pool.ntp.org&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a3035bf8e482faa502540172aa8b0f3e6">NTP_UPDATE_INTERVAL</link> 3600000</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1aedabd25f9c49ec8a9ff343fb7ca4801c">SUMMER_TIME</link> 7200</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1ac19f5f992a7a905f0f135e4072fb3fd1">WINTER_TIME</link> 3600</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1ad558cc4519687b93245b077124139ac6">CFG_PATH</link> &quot;/config.json&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a47e3d06bbbe38817f4cb460db7835c1d">SUB_PATH</link> &quot;/sub.json&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1ab6d6da126e75783fa6c1176adb60182e">SUB_GLOBAL_PATH</link> &quot;/subGlobal.json&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a40805f8618df68c394b5fe201476ea43">PUB_PATH</link> &quot;/pub.json&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a0fee435227e98cab40cb6049f307a4c8">ADE7953_PATH</link> &quot;/ADE7953.json&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1ae01980295758591710a7f24b30c49779">TYPE_OBJECT</link> 1</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1ae0b9182a0867df86fb91367a93c3f7a4">TYPE_ARRAY</link> 0</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a18aefd12ad84d4c33dc97923cb821e47">I2C_SDA</link> 4</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a212ca328a6409c98f8c3dfbbe1ba561d">I2C_SCL</link> 5</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="_setup_8h_1a7a56fbfaa4dc1e2b6de4607cfa101a0b">SSD1306_I2C_adr</link> 0x3c</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Ausführliche Beschreibung</title>
+    <para>Definition in file C:/TEMP/ADE7953-PowerSocket/src/Setup.h</para>
+    </simplesect>
+</section>

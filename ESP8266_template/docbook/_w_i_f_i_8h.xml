@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_w_i_f_i_8h">
+    <title>WIFI.h File Reference</title>
+    <programlisting>#include &quot;FFS.h&quot;</programlisting>
+    <programlisting>#include &quot;Setup.h&quot;</programlisting>
+    <programlisting>#include &lt;Arduino.h&gt;</programlisting>
+    <programlisting>#include &lt;WiFiClient.h&gt;</programlisting>
+    <programlisting>#include &quot;Logger.h&quot;</programlisting>
+    <programlisting>#include &lt;functional&gt;</programlisting>
+<para>Include dependency diagram for WIFI.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_w_i_f_i_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for WIFI.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_w_i_f_i_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Klassen </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_w_i_f_i">WIFI</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Typdefinitionen</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef std::function&lt; void(void)&gt;  <link linkend="_w_i_f_i_8h_1a3fded89b9d8e2c70eebddf4a5145511e">CallbackFunction</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Ausführliche Beschreibung</title>
+    <para>Definition in file C:/TEMP/ADE7953-PowerSocket/src/WIFI.h</para>
+    </simplesect>
+</section>
